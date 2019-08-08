@@ -1,5 +1,7 @@
 pragma solidity ^0.4.9;
 
+/// @dev These contracts are used to verify Proof of Work within a smart contract.
+///      The algorithms have been extracted from the implementation of smart pool (https://github.com/smartpool)
 contract SHA3_512 {
     function SHA3_512() {}
 
