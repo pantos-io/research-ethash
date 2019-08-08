@@ -8,6 +8,10 @@ and some elements of the Directed Acyclic Graph (DAG) used for mining, callers a
 instance, the contract is used by [Testimonium](https://github.com/pf92/testimonium) to verify the validity of submitted
 block headers. 
 
+> _Important: Ethash is a research prototype. 
+  It represents ongoing work conducted within the [TAST](https://dsg.tuwien.ac.at/projects/tast/) 
+  research project. Use with care._
+
 ## Get Started
 Ethash can be deployed through the CLI tool of [Testimonium](https://github.com/pf92/testimonium), so go check it out [here](https://github.com/pf92/go-testimonium).  
 If you want to deploy the contracts manually, follow the steps below.
@@ -34,7 +38,7 @@ function _verifyPoW_ with the following parameters: the block number, the Keccak
 block header without nonce and mix, the nonce, difficulty, and some elements of the Directed Acyclic Graph (DAG) used
 for mining. To check that elements come from the correct DAG (for every epoch (30,000 blocks) a new DAG is used), the contract has to be initialized
 with so-called epoch data. This can be done by using the function _setEpochData_. In case the
-contract is intended to be used in production systems, it should be initialized in advance with
+contract is intended to be used in production, it should be initialized in advance with
 an sufficient amount of epoch data (e.g., epoch data for the next 5 years). Since
 the data of each epoch can be easily recomputed, everyone can verify the correctness of the data
 used for the contract initialization. Thus, no trust in the party initializing the contract is needed.
