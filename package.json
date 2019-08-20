@@ -16,7 +16,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "truffle": "^5.0.22"
+    "truffle": "5.0.22"
   },
   "bugs": {
     "url": "https://github.com/pf92/ethash/issues"
