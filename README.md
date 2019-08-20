@@ -21,16 +21,14 @@ The following guide will walk you through the deployment of Ethash on a local bl
 
 ### Prerequisites
 You need to have the following tools installed:
-* [Node](https://nodejs.org/en/)
-* [Ganache](https://www.trufflesuite.com/ganache)
+* [Node](https://nodejs.org/en/) v10
+* [Ganache](https://www.trufflesuite.com/ganache) v2.1.0
 
 ### Deployment
 1. Clone the repository: `git clone git@github.com:pf92/ethash.git`
-
 2. Change into the project directory: `cd ethash/`
 3. Install all dependencies: `npm install`  
-4. Compile contract: `truffle compile`
-5. Deploy contract: `truffle migrate --reset`
+4. Deploy contract: `truffle migrate --reset`
 
 ## How it works
 Developers can use this contract to perform an on-chain verification of Ethereum PoW by calling the
