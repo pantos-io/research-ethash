@@ -5,7 +5,7 @@ of Ethereum Proof of Work (PoW).
 
 By providing the block number, the Keccak hash of the RLP-encoded block header without nonce and mix, the nonce, difficulty,
 and some elements of the Directed Acyclic Graph (DAG) used for mining, callers are able to verify the PoW on-chain. For 
-instance, the contract is used by [Testimonium](https://github.com/pf92/testimonium) to verify the validity of submitted
+instance, the contract is used by [Testimonium](https://github.com/pantos-io/testimonium) to verify the validity of submitted
 block headers. 
 
 > _Important: Ethash is a research prototype. 
@@ -13,7 +13,7 @@ block headers.
   research project. Use with care._
 
 ## Get Started
-Ethash can be deployed through the CLI tool of [Testimonium](https://github.com/pf92/testimonium), so go check it out [here](https://github.com/pf92/go-testimonium).  
+Ethash can be deployed through the CLI tool of [Testimonium](https://github.com/pantos-io/testimonium), so go check it out [here](https://github.com/pf92/go-testimonium).  
 If you want to deploy the contracts manually, follow the steps below.
 
 ## Installation
@@ -46,7 +46,7 @@ The generation of epoch data and example calls of the contract's functions are s
 
 ## How to contribute
 Ethash is a research prototype. We welcome anyone to contribute.
-File a bug report or submit feature requests through the [issue tracker](https://github.com/pf92/ethash/issues). 
+File a bug report or submit feature requests through the [issue tracker](https://github.com/pantos-io/ethash/issues). 
 If you want to contribute feel free to submit a pull request.
 
 ## Acknowledgements
