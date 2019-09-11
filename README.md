@@ -1,3 +1,5 @@
+> _NOTE: This repository is no longer updated. 
+All contracts of this repository have been migrated to the Testimonium [repository](https://github.com/pantos-io/testimonium)._
 # Ethash
 
 This project contains an Ethereum smart contract that enables the on-chain verification 
@@ -13,7 +15,7 @@ block headers.
   research project. Use with care._
 
 ## Get Started
-Ethash can be deployed through the CLI tool of [Testimonium](https://github.com/pantos-io/testimonium), so go check it out [here](https://github.com/pf92/go-testimonium).  
+Ethash can be deployed through the CLI tool of [Testimonium](https://github.com/pantos-io/testimonium), so go check it out [here](https://github.com/pantos-io/go-testimonium).  
 If you want to deploy the contracts manually, follow the steps below.
 
 ## Installation
@@ -25,7 +27,7 @@ You need to have the following tools installed:
 * [Ganache](https://www.trufflesuite.com/ganache) v2.1.0
 
 ### Deployment
-1. Clone the repository: `git clone git@github.com:pf92/ethash.git`
+1. Clone the repository: `git clone git@github.com:pantos-io/ethash.git`
 2. Change into the project directory: `cd ethash/`
 3. Install all dependencies: `npm install`  
 4. Deploy contract: `truffle migrate --reset`
@@ -41,7 +43,7 @@ an sufficient amount of epoch data (e.g., epoch data for the next 5 years). Sinc
 the data of each epoch can be easily recomputed, everyone can verify the correctness of the data
 used for the contract initialization. Thus, no trust in the party initializing the contract is needed.
 
-The generation of epoch data and example calls of the contract's functions are shown at https://github.com/pf92/go-testimonium/blob/master/cmd/submitEpoch.go
+The generation of epoch data and example calls of the contract's functions are shown at https://github.com/pantos-io/go-testimonium/blob/master/cmd/submitEpoch.go
 
 
 ## How to contribute
